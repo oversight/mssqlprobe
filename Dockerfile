@@ -1,1 +1,1 @@
-FROM transceptortechnology/osmsqlprobe:latest
+FROM transceptortechnology/osmssqlprobe:latest
