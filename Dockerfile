@@ -1,0 +1,1 @@
+FROM transceptortechnology/osmsqlprobe:latest
