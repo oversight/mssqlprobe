@@ -1,0 +1,10 @@
+{
+    "eachDb": true,
+    "top": {
+        "count": 25,
+        "orderBy": ["-avg_fragmentation_in_percent"]
+    },
+    "ignoreDuplicates": true,
+    "indexColumns": ["database_name", "schema_name", "object_name", "index_name"],
+    "defaultCheckInterval": 3600
+}

@@ -1,0 +1,4 @@
+{
+	"typeName": "sessions",
+	"indexColumns": ["client_net_address", "program_name", "host_name", "login_name"]
+}

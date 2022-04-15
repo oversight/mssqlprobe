@@ -1,0 +1,10 @@
+{
+    "eachDb": true,
+    "top": {
+        "count": 25,
+        "orderBy": ["-buffer_size"]
+    },
+    "autoDedupCount": true,
+    "indexColumns": ["object_name", "index_name"],
+    "defaultCheckInterval": 3600
+}

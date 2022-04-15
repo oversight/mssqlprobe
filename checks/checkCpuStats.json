@@ -1,0 +1,6 @@
+{
+    "diffMetrics": [
+        "cpu_time_sec"
+    ],
+    "ignoreNegativeValuesInDiff": true
+}

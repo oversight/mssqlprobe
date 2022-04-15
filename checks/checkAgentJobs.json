@@ -1,0 +1,14 @@
+{
+  "defaultCheckInterval": 600,
+  "dataFunctions": [
+    {
+      "function": "parseRunDateTime",
+      "parameters": [
+        "next_run_date",
+        "next_run_time"
+      ],
+      "fieldName": "next_run"
+    }
+  ],
+  "ignoreDuplicates": true
+}

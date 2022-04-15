@@ -1,0 +1,5 @@
+{
+ "indexColumns": ["Database.Schema.Table", "equality_columns", "inequality_columns", "included_columns"],
+ "typeName": "missingindexes",
+ "defaultCheckInterval": 7200
+}

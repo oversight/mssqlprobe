@@ -1,0 +1,12 @@
+{
+    "eachDb": true,
+    "indexColumns": ["database_name", "table_name", "statistic"],
+    "top": {
+        "count": 25,
+        "orderBy": ["-percent_change"]
+    },
+    "defaultCheckInterval": 3600,
+    "ignoreDuplicates": true,
+    "_comment": "requires > SQL Server 2008R2 SP2 according to https://www.simple-talk.com/sql/performance/managing-sql-server-statistics/",
+    "minVersion": "10.50.4000.0"
+}

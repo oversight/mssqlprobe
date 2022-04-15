@@ -1,0 +1,10 @@
+{
+    "indexColumns": ["database_name", "table_name"],
+    "ignoreDuplicates": true,
+    "eachDb": true,
+    "top": {
+        "count": 25,
+        "orderBy": ["-row_count"]
+    },
+    "defaultCheckInterval": 7200
+}

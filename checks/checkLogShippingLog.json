@@ -1,0 +1,27 @@
+{
+  "typeName": "log",
+  "indexColumns": [
+    "agent_id",
+    "session_id",
+    "log_time_utc"
+  ],
+  "metricLookups": [
+    {
+      "newMetricName": "session_status",
+      "metricName": "session_status",
+      "lookups": {
+        "3": "Error",
+        "4": "Warning"
+      }
+    },
+    {
+      "newMetricName": "agent_type",
+      "metricName": "agent_type",
+      "lookups": {
+        "0": "Backup",
+        "1": "Copy",
+        "2": "Restore"
+      }
+    }
+  ]
+}

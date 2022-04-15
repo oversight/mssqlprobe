@@ -1,0 +1,7 @@
+{
+  "defaultCheckInterval": 600,
+  "typeName": "logshipping",
+  "indexColumns": [
+    "copy_job_id"
+  ]
+}

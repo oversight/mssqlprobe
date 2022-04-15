@@ -1,0 +1,11 @@
+{
+    "typeName": "indexes",
+    "indexColumns": ["database_name", "object_name", "index_name"],
+    "eachDb": true,
+    "top": {
+        "count": 25,
+        "orderBy": ["index_usefulness"]
+    },
+    "ignoreDuplicates": true,
+    "defaultCheckInterval": 3600
+}

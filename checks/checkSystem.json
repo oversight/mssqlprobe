@@ -1,0 +1,19 @@
+{
+    "typeName": "system",
+    "required": true,
+    "metricLookups": [
+        {
+            "metricName": "windows_sku",
+            "lookups": {
+                "4": "Enterprise Edition",
+                "7": "Standard Server Edition",
+                "8": "Datacenter Server Edition",
+                "10": "Enterprise Server Edition",
+                "48": "Professional Edition"
+            }
+        }
+    ],
+    "defaultCheckInterval": 3600,
+    "_comment": "requires > SQL Server 2008R2 SP1",
+    "minVersion": "10.50.2500.0"
+}

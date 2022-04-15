@@ -1,0 +1,4 @@
+{
+	"typeName": "expectancy",
+	"indexColumns": ["server_name", "instance_name"]
+}

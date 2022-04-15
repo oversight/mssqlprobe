@@ -1,0 +1,9 @@
+{
+    "typeName": "indexusage",
+    "eachDb": true,
+    "top": {
+        "count": 25,
+        "orderBy": ["-total_usage"]
+    },
+    "defaultCheckInterval": 3600
+}

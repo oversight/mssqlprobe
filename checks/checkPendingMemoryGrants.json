@@ -1,0 +1,4 @@
+{
+	 "typeName": "grants",
+	 "indexColumns": ["server_name", "object_name"]
+}

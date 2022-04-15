@@ -1,0 +1,4 @@
+agentcoreclient==0.1.8
+ntlm-auth==1.5.0  # required for python-tds
+python-tds==1.11.0
+setproctitle==1.2.2

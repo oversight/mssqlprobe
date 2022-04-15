@@ -1,0 +1,28 @@
+{
+    "typeName": "dbtracestatus",
+    "indexColumns": [
+        "Session"
+    ],
+    "metricLookups": [
+        {
+            "metricName": "Status",
+            "lookups": {
+                "0": "Off",
+                "1": "On"
+            }
+        }, {
+            "metricName": "Global",
+            "lookups": {
+                "0": false,
+                "1": true
+            }
+        }, {
+            "metricName": "Session",
+            "lookups": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
+    "autoDedupCount": true
+}

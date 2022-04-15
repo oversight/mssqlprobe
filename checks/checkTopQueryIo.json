@@ -1,0 +1,5 @@
+{
+   "typeName": "queryio",
+   "autoDedupCount": true,
+   "defaultCheckInterval": 3600
+}

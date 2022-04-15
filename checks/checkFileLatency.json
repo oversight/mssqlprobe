@@ -1,0 +1,49 @@
+{
+    "diffMetrics": [
+        "io_stalls_sec_total",
+        "io_stall_write_sec_total",
+        "io_stall_read_sec_total",
+        "num_of_writes_total",
+        "num_of_reads_total",
+        "total_iops",
+        "num_of_bytes_written_total",
+        "num_of_bytes_read_total",
+        "total_bytes_io"
+    ],
+    "db": "master",
+    "dataFunctions": [
+        {
+            "function": "devideAllowZero",
+            "parameters": ["io_stalls_sec_total_diff", "total_iops_diff"],
+            "fieldName": "io_stall_sec"
+        }, {
+            "function": "devideAllowZero",
+            "parameters": ["io_stall_write_sec_total_diff", "num_of_writes_total_diff"],
+            "fieldName": "write_stall_sec"
+        }, {
+            "function": "devideAllowZero",
+            "parameters": ["io_stall_read_sec_total_diff", "num_of_reads_total_diff"],
+            "fieldName": "read_stall_sec"
+        }, {
+            "function": "devideAllowZero",
+            "parameters": ["num_of_bytes_written_total_diff", "num_of_writes_total_diff"],
+            "fieldName": "bytes_written"
+        }, {
+            "function": "devideAllowZero",
+            "parameters": ["num_of_bytes_read_total_diff", "num_of_reads_total_diff"],
+            "fieldName": "bytes_read"
+        }, {
+            "function": "devideAllowZero",
+            "parameters": ["total_bytes_io_diff", "total_iops_diff"],
+            "fieldName": "bytes_io"
+        }, {
+            "function": "int",
+            "fieldName": "bytes_written",
+            "parameters": ["bytes_written"]
+        }, {
+            "function": "int",
+            "fieldName": "bytes_read",
+            "parameters": ["bytes_read"]
+        }
+    ]
+}

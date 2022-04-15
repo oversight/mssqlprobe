@@ -1,0 +1,4 @@
+{
+    "typeName": "backups",
+	"indexColumns": ["machine_name", "server_name", "database_name"]
+}

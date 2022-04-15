@@ -1,0 +1,2 @@
+class MsSqlQueryException(Exception):
+    pass

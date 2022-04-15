@@ -1,0 +1,5 @@
+{
+    "typeName": "logicalreads",
+    "autoDedupCount": true,
+    "defaultCheckInterval": 3600
+}

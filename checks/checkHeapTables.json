@@ -1,0 +1,10 @@
+{
+    "eachDb": true,
+    "ignoreDuplicates": true,
+    "top": {
+        "count": 25,
+        "orderBy": ["-advantage"]
+    },
+    "indexColumns": ["database_name", "table_name"],
+    "defaultCheckInterval": 7200
+}

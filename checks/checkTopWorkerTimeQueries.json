@@ -1,0 +1,5 @@
+{
+    "autoDedupCount": true,
+    "typeName": "queries",
+    "defaultCheckInterval": 3600
+}
